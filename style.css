@@ -152,21 +152,32 @@ main a:hover {
 
 
 .team-person p {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 1.4;
 }
 
 .team {
     display: flex;
     gap: 35px;
+    font-size: 11px;
 }
 
 .team article {
     width: 25%;
 }
+.team-liste {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 30px;
+}
+
+.team-person {
+    width: 30%;
+}
+
 
 .team img {
-    width: 100%;
+    width: 90%;
     height: 180px;
     object-fit: cover;
     object-position: center;
